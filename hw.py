@@ -68,7 +68,7 @@ def search_quotes(command):
 if __name__ == "__main__":
     while True:
         command = input(
-            "Invalid command format. Use 'name:', 'tag:', or 'tags:\nEnter command 'exit' to quit:\n>>>"
+            "Invalid command format. Use 'name:', 'tag:', or 'tags:'\nEnter command 'exit' to quit:\n>>>"
         )
         if command.lower() == "exit":
             break
